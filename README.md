@@ -15,6 +15,16 @@ Copiar el código e incorporar la dirección (URL) con el id del mapa que se des
     >
   </iframe>
 ```
+Para más precisión en la visualización incial del mapa puede parale la latitud, longitud y nivel de zoom:
+
+```:html
+  <iframe
+    src="https://mapascordoba.gob.ar/viewer/embed/mapa/15?lat=-31&lon=-64&zoom=14"
+    width="800"
+    height="600"
+    >
+  </iframe>
+```
 
 
 3)  Agregar el componente iFrame en tu página
